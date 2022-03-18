@@ -6,3 +6,9 @@
   padding: 0;
   background-color: rgba(239, 235, 224, 255);
 }
+
+.header {
+  width: 100%;
+  height: 300px;
+  border: 10px solid red;
+}

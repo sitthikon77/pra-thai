@@ -1,9 +1,12 @@
-const HomePage = () => {
-    return (
-        <div>
-            <h1>Homepage</h1>
-        </div>
-    )
-}
+import ButtonLogin from "../../component/button/button-login";
 
-export default HomePage
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Homepage</h1>
+      <ButtonLogin />
+    </div>
+  );
+};
+
+export default HomePage;
