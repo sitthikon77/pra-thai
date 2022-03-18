@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+* {
+  font-family: "Prompt", sans-serif;
+}
+#open-modal-login {
+  background-color: #d09c34;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  width: 120px;
+}
+
+.close-btn {
+  display: flex;
+  justify-content: end;
+}
+
+.close-btn button {
+  background-color: white;
+  border: 0px solid white;
+  margin: 5px;
+}
+
+#header {
+  border: 0px solid white;
+}
+
+#header p {
+  font-weight: 600;
+}
+
+.label-phone {
+  display: flex;
+  justify-content: start;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.input-phone {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.input-phone input {
+  border-radius: 10px;
+  border: solid 1.5px rgb(206, 202, 202);
+  width: 440px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.label-pass {
+  display: flex;
+  justify-content: start;
+  margin-left: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-pass {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.input-pass input {
+  border-radius: 10px;
+  border: solid 1.5px rgb(206, 202, 202);
+  width: 440px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-pass-forgot {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-pass-forgot button {
+  background-color: white;
+  border: 0px solid whitesmoke;
+  padding: 10px;
+  margin-right: 10px;
+  color: #d09c34;
+  font-weight: 600;
+}
+
+.btn-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.btn-login button {
+  background-color: #d09c34;
+  border: 0px solid whitesmoke;
+  padding: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 440px;
+  margin-left: 10px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  align-items: center;
+}
+.text p {
+  margin: 0px 5px 0px 5px;
+}
+.text div {
+  border: solid 1px rgb(206, 202, 202);
+  width: 200px;
+  height: 1px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(206, 202, 202);
+}
+
+.btn-login-fb {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-login-fb button {
+  background-color: #287cec;
+  border: 0px solid whitesmoke;
+  padding: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 440px;
+  margin-left: 10px;
+}
+
+.btn-login-g {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-login-g button {
+  background-color: #d84444;
+  border: 0px solid whitesmoke;
+  padding: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 440px;
+  margin-left: 10px;
+}
+
+.btn-login-apple {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-login-apple button {
+  background-color: #000000;
+  border: 0px solid whitesmoke;
+  padding: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 440px;
+  margin-left: 10px;
+}
+
+.btn-register {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-register button {
+  background-color: #797979;
+  border: 0px solid whitesmoke;
+  padding: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 440px;
+  margin-left: 10px;
+}
