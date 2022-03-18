@@ -1,0 +1,25 @@
+.nav-text{
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.nav-text a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 0px 0 0px;
+}
+
+.nav-text a:focus{
+    color: #d09c34;
+    font-weight: 600;
+    border-left: solid 20px #d09c34;
+}
+
+span{
+    margin-left: 6px;
+}
