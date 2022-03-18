@@ -24,6 +24,10 @@
   border-left: solid 20px #d09c34;
 }
 
+.nav-text a:hover {
+  color: gray;
+}
+
 span {
   margin-left: 6px;
 }
