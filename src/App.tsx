@@ -7,7 +7,7 @@ import HomePage from "./page/home-page/home-page";
 function App() {
   return (
     <div className="App">
-      <div className="header"></div>
+      <div className="header"><img src="image/banner/banner01.jpg" alt="" /></div>
       <Router>
         <div className="container-fluid">
           <div className="row">
