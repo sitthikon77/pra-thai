@@ -8,7 +8,7 @@ function Live() {
         <p>วิดีโอถ่ายทอดสด</p>
 
         <div className="container">
-          <img src="./image/video-live/video-live01.png" />
+          <img src="./image/profile-pic/profile01.png" />
 
           <div className="top-left">
             <span>Live •</span>
