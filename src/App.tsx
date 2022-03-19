@@ -6,6 +6,11 @@ import HomePage from "./page/home-page/home-page";
 import Header from "./component/header/header";
 import Footer from "./component/footer/footer";
 import Live from "./component/live/live";
+import "./App.css";
+import CertificatePage from "./page/cerificate-page/certificate-page";
+import NewsPage from "./page/news-page/news-page";
+import ContractPage from "./page/contract-page/contract-page";
+import PolicyPage from "./page/policy-page/policy-page";
 
 function App() {
   return (
@@ -14,16 +19,20 @@ function App() {
       <Router>
         <div className="container-fluid">
           <div className="row mt-4">
-            <div className="col m-0 p-0">
+            <div className="col col-3 m-0 p-0">
               <NavComponent />
             </div>
-            <div className="col-6">
+            <div className="col col-6">
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/list-pra-page" element={<ListPraPage />} />
+                <Route path="/certificate-page" element={<CertificatePage />} />
+                <Route path="/news-page" element={<NewsPage />} />
+                <Route path="/contract-page" element={<ContractPage />} />
+                <Route path="/policy-page" element={<PolicyPage />} />
               </Routes>
             </div>
-            <div className="col">
+            <div className="col col-3">
               <Live />
             </div>
           </div>
