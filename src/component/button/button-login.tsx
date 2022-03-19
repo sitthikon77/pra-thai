@@ -14,7 +14,12 @@ function ButtonLogin() {
         เข้าสู่ระบบ
       </Button>
 
-      <Modal show={show} onHide={handleClose} id="modal-body" className="mx-0">
+      <Modal
+        show={show}
+        onHide={handleClose}
+        id="modal-body"
+        className="border border-white"
+      >
         <div className="close-btn">
           <button onClick={handleClose}>X</button>
         </div>
