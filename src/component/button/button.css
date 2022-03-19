@@ -2,6 +2,8 @@
 * {
   font-family: "Prompt", sans-serif;
 }
+
+/* Login */
 #open-modal-login {
   background-color: #d09c34;
   border-radius: 20px;
@@ -36,6 +38,7 @@
   justify-content: start;
   margin-left: 30px;
   font-weight: 600;
+  margin-top: 5px;
 }
 
 .input-phone {
@@ -50,6 +53,7 @@
   width: 440px;
   margin-left: 10px;
   margin-right: 10px;
+  padding: 5px;
 }
 
 .label-pass {
@@ -72,6 +76,7 @@
   width: 440px;
   margin-left: 10px;
   margin-right: 10px;
+  padding: 5px;
 }
 
 .btn-pass-forgot {
@@ -195,4 +200,72 @@
   border-radius: 10px;
   width: 440px;
   margin-left: 10px;
+}
+
+/* Register */
+#open-modal-register {
+  background-color: #949494;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  width: 120px;
+}
+
+.label-name {
+  display: flex;
+  justify-content: start;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.input-name {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.input-name input {
+  border-radius: 10px;
+  border: solid 1.5px rgb(206, 202, 202);
+  width: 440px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.btn-register-2 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-register-2 button {
+  background-color: #d09c34;
+  border: 0px solid whitesmoke;
+  padding: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 440px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* dropdown */
+#dropdown-basic-button {
+  background-color: rgba(239, 235, 224, 255);
+  color: #d09c34;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  width: 60px;
+}
+#dropdown-basic-item {
+  color: #d09c34;
 }
