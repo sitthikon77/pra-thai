@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap");
+
+.Nav-header {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  padding: 50px;
+  transition: 0.5s ease;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.header-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.header-logo p {
+  font-weight: 600;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: white;
+  font-family: "KoHo", sans-serif;
+}
+
+.header-buntton {
+  position: relative;
+  display: flex;
+}
+
+.section {
+  z-index: 999;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  margin-left: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+.content p {
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+  font-family: "KoHo", sans-serif;
+}
+
+.header-buntton div {
+  padding-left: 10px;
+}
+
+#carousel-indicators button {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}

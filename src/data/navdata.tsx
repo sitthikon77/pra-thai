@@ -19,7 +19,7 @@ const NavData = [
     },
     {
         title:"ตรวจสอบใบรับรองพระเครื่อง",
-        path:"/certificate-page",
+        path:"/cerificate-page",
         icon:<BiCertification/>
     },
     {
