@@ -1,0 +1,9 @@
+.popular-pra {
+  justify-content: start;
+}
+
+#popular-pra p {
+  color: #d09c34;
+  font-size: 15px;
+  font-weight: 600;
+}

@@ -8,13 +8,15 @@ import AddStoryComponent from "../../component/story/add-story";
 const HomePage = () => {
   const [storyData, setStoryData] = useState(StoryData);
   return (
-    <div className="container">
-      <AddStoryComponent />
-      {/* STORY */}
-      {storyData.map((data, index) => {
-        return <StoryComponent key={index} {...data} />;
-      })}
-      {/* STORY */}
+    <div className=".container-fluid	">
+      <div className="container" id="home-container">
+        <AddStoryComponent />
+        {/* STORY */}
+        {storyData.map((data, index) => {
+          return <StoryComponent key={index} {...data} />;
+        })}
+        {/* STORY */}
+      </div>
     </div>
   );
 };

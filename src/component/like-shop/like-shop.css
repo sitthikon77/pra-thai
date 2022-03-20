@@ -1,0 +1,50 @@
+#like-shop {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+#like-shop img {
+  width: 40px;
+  height: 40px;
+  border: solid 3px #d09c34;
+}
+
+.like-shop-text {
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-top: 2px;
+}
+
+#like-shop h1 {
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+
+#like-shop p {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(172, 172, 172);
+  margin: 0;
+}
+
+#like-shop button {
+  background-color: #ffffff;
+  border: solid 1px #d09c34;
+  border-radius: 25px;
+  font-size: 12px;
+  color: #d09c34;
+  padding: 5px;
+}
+
+.btn-view-more {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-view-more button {
+  background-color: rgba(239, 235, 224, 255);
+  border: solid 0px rgba(239, 235, 224, 255);
+  color: #d09c34;
+  font-size: 14px;
+}

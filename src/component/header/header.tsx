@@ -17,10 +17,10 @@ function Header() {
       <div>
         <div
           id="carouselExampleIndicators"
-          className="carousel slide"
+          className="carousel slide carousel-fade"
           data-bs-ride="carousel"
         >
-          <div className="carousel-indicators" id="carousel-indicators">
+          <div className="carousel-indicators " id="carousel-indicators">
             <button
               type="button"
               data-bs-target="#carouselExampleIndicators"

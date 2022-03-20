@@ -137,6 +137,8 @@
 
 .btn-login-fb button {
   background-color: #287cec;
+  display: flex;
+  justify-content: space-between;
   border: 0px solid whitesmoke;
   padding: 5px;
   margin-right: 10px;
@@ -145,6 +147,12 @@
   border-radius: 10px;
   width: 440px;
   margin-left: 10px;
+}
+
+.btn-login-fb button p {
+  padding-right: 20px;
+  margin-bottom: 0px;
+  padding-left: 100px;
 }
 
 .btn-login-g {
@@ -163,6 +171,14 @@
   border-radius: 10px;
   width: 440px;
   margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-login-g button p {
+  padding-right: 20px;
+  margin-bottom: 0px;
+  padding-left: 100px;
 }
 
 .btn-login-apple {
@@ -181,6 +197,13 @@
   border-radius: 10px;
   width: 440px;
   margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-login-apple button p {
+  padding-right: 22px;
+  margin-bottom: 0px;
+  padding-left: 100px;
 }
 
 .btn-register {

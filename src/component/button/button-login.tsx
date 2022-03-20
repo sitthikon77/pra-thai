@@ -1,6 +1,8 @@
 import { Button, Modal } from "react-bootstrap";
 import { useState } from "react";
 import "./button.css";
+import { FaFacebookF, FaApple } from "react-icons/fa";
+import { ImGooglePlus } from "react-icons/im";
 
 function ButtonLogin() {
   const [show, setShow] = useState(false);
@@ -54,15 +56,30 @@ function ButtonLogin() {
         </div>
 
         <div className="btn-login-fb">
-          <button>เข้าสู่ระบบด้วย Facebook</button>
+          <button>
+            <p>เข้าสู่ระบบด้วย Facebook</p>
+            <p>
+              <FaFacebookF />
+            </p>
+          </button>
         </div>
 
         <div className="btn-login-g">
-          <button>เข้าสู่ระบบด้วย Google</button>
+          <button>
+            <p>เข้าสู่ระบบด้วย Google</p>
+            <p>
+              <ImGooglePlus />
+            </p>
+          </button>
         </div>
 
         <div className="btn-login-apple">
-          <button>เข้าสู่ระบบด้วย Apple ID</button>
+          <button>
+            <p>เข้าสู่ระบบด้วย Apple ID</p>
+            <p>
+              <FaApple />
+            </p>
+          </button>
         </div>
 
         <div className="btn-register">

@@ -11,6 +11,9 @@ import CertificatePage from "./page/cerificate-page/certificate-page";
 import NewsPage from "./page/news-page/news-page";
 import ContractPage from "./page/contract-page/contract-page";
 import PolicyPage from "./page/policy-page/policy-page";
+import SearchMenu from "./component/search-menu/search-menu";
+import LikeShop from "./component/like-shop/like-shop";
+import PopularPra from "./component/popular-pra/popular-pra";
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
             </div>
             <div className="col col-3">
               <Live />
+              <SearchMenu />
+              <LikeShop />
+              <PopularPra />
             </div>
           </div>
         </div>
