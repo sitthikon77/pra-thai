@@ -3,6 +3,10 @@ import NavComponent from "./page/nav/nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ListPraPage from "./page/list-pra-page/list-pra-page";
 import HomePage from "./page/home-page/home-page";
+import Header from "./component/header/header";
+import Footer from "./component/footer/footer";
+import Live from "./component/live/live";
+import "./App.css";
 import CertificatePage from "./page/cerificate-page/certificate-page";
 import NewsPage from "./page/news-page/news-page";
 import ContractPage from "./page/contract-page/contract-page";
@@ -11,16 +15,14 @@ import PolicyPage from "./page/policy-page/policy-page";
 function App() {
   return (
     <div className="App">
-      <div className="header"> 
-        <img src="image/banner/banner01.jpg" alt="" /> 
-      </div>
+      <Header />
       <Router>
         <div className="container-fluid">
-          <div className="row">
-            <div className="col m-0 p-0">
+          <div className="row mt-4">
+            <div className="col col-3 m-0 p-0">
               <NavComponent />
             </div>
-            <div className="col">
+            <div className="col col-6">
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/list-pra-page" element={<ListPraPage />} />
@@ -30,10 +32,13 @@ function App() {
                 <Route path="/policy-page" element={<PolicyPage />} />
               </Routes>
             </div>
-            <div className="col">One of three columns</div>
+            <div className="col col-3">
+              <Live />
+            </div>
           </div>
         </div>
       </Router>
+      <Footer />
     </div>
   );
 }
