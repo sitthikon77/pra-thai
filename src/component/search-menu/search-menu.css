@@ -1,5 +1,5 @@
 .form-search {
-  margin-left: 10px;
+  
 }
 
 .container .search-menu-h {
@@ -8,14 +8,13 @@
   margin-top: 10px;
 }
 #dropdown-select {
-  display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
   color: gray;
   font-size: 12px;
   border-radius: 25px;
   border: solid 1px white;
-  width: 250px;
+  width: 100%;
   text-align: center;
 }
 
@@ -29,10 +28,10 @@
   justify-content: space-between;
 }
 #container-search-1 input {
-  width: 120px;
+  width: 48%;
 }
 #container-search-1 select {
-  width: 120px;
+  width: 48%;
 }
 .btn-search {
   height: 30px;
@@ -43,7 +42,7 @@
   align-items: center;
   border-radius: 25px;
   border: solid 1px white;
-  width: 250px;
+  width: 100%;
   text-align: center;
 }
 

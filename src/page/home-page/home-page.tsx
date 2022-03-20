@@ -4,6 +4,7 @@ import StoryData from "../../data/storydata";
 import "./home-page.css";
 import "../../component/story/story.css";
 import AddStoryComponent from "../../component/story/add-story";
+import PostComponent from "./post-component/post-component";
 
 const HomePage = () => {
   const [storyData, setStoryData] = useState(StoryData);
@@ -17,6 +18,9 @@ const HomePage = () => {
         })}
         {/* STORY */}
       </div>
+      <PostComponent addPost={function (...args: any[]) {
+          throw new Error("Function not implemented.");
+        } } />
     </div>
   );
 };
