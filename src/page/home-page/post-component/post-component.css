@@ -1,0 +1,61 @@
+#body-post {
+    background-color: #fff;
+    border: solid 1px #ced4da;
+    border-radius: 10px;
+}
+
+#text-header-post {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 3px;
+}
+
+#button-post {
+    background-color: #d09c34;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 1% 12%;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border: solid 1px #d09c34;
+}
+
+#button-post-2 {
+    background-color: #d09c34;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 1% 40%;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border: solid 1px #d09c34;
+}
+
+#input-button-post {
+    background-color: #fff;
+    color: #ced4da;
+    text-align: left;
+    border: solid 1px #ced4da;
+    font-size: 16px;
+}
+
+#exampleModal {
+    top: 40%;
+}
+
+#exampleModalLabel {
+    font-weight: 600;
+    margin-left: 38%;
+}
+
+#text-field-post {
+    border: solid 1px #ced4da;
+}
+
+#modal-footer-id {
+    justify-content: center;
+}
+
+#post-img img{
+    width: 100%;
+    margin-top: 15px;
+}
